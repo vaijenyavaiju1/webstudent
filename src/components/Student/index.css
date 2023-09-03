@@ -1,0 +1,66 @@
+.student-head{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin: 20px;
+}
+
+.student-para{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px;
+margin:20px;
+}
+
+.stu-mir{
+    display: flex;
+}
+.stud-dev{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+.stu-h{
+    color: var(--black-fonts-headings, #2D2E2E);
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin:10px;
+margin-bottom:200px;
+}
+
+@media  screen and (max-width:768px) {
+
+    .student-head{
+        font-size:20px;
+    }
+    .student-para{
+        font-size:12px;
+    }
+    .stud-dev{
+        display:flex;
+        flex-direction:column;
+    }
+    .stu-h{
+        font-size:12px;
+        line-height: normal;
+        margin:5px;
+    }
+
+    .stu-mir{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+}

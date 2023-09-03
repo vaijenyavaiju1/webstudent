@@ -1,0 +1,177 @@
+
+.arrival-img{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-end;
+    align-items: center;
+    margin-right:100px;
+}
+
+.arr-con{
+    margin-left:10%;
+}
+
+.arr-one{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.dev{
+    display: flex;
+    margin-right:70px;
+}
+
+.dev1{
+    margin-right:50px;
+    margin-bottom: 20px;
+}
+
+.dev-para{
+    color: #000;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top:10px;
+padding-bottom:10px;
+}
+.dev-ul{
+    color: #000;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+}
+
+.arrival-card{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    padding: 25px;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius:20px;
+    border-width: 0px;
+    margin:20px;
+}
+
+.arrival-head{
+    color: var(--black, #000);
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.arrival-para{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 143.75% */
+    letter-spacing: 0.5px;
+}
+
+.arr-stud{
+    color: #000;
+font-family: Inter;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.dev-button{
+    padding:10px;
+    border-radius: 20px;
+    background: #F27A44;
+    width:150px;
+    border-width: 0px;
+    color:#ffffff;
+    font-size:15px;
+    margin:30px;
+    margin-left:0px;
+  }
+
+.arr-trop{
+    color: #000;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.img-ar{
+    display: none;
+}
+
+@media screen and (max-width: 711px) {
+    .arr-one {
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .arrival-img {
+        display: none;
+    }
+
+    .dev {
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+        margin-right:0px;
+    }
+    
+    .dev1{
+        margin-right:0px;
+        margin-bottom: 0px;
+    }
+
+    
+
+    
+
+    .arrival-card {
+        width: 70%;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .arrival-head {
+        font-size: 16px;
+    }
+
+    .arrival-para {
+        font-size: 14px;
+    }
+
+    .arr-stud {
+        font-size: 18px;
+    }
+
+    .dev-button {
+        width: 120px;
+        font-size: 12px;
+    }
+
+    .arr-trop {
+        padding:12px;
+        font-size: 18px;
+    }
+    .arr-con{
+        margin-left: 0px;
+    }
+    .dev-para{
+        font-size:15px;
+        width:180px;
+        margin-left:5px;
+    }
+}
